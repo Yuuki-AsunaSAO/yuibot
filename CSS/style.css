@@ -1,0 +1,125 @@
+@font-face {
+	font-family: webFont;
+	src: url(../fonts/saofont.otf);
+}
+body{
+  margin: 0 auto;
+  color: #C5C6C7;
+  font-size: 18px;
+  background-color: #0B0C10;
+  font-family: 'webFont', sans-serif;
+}
+header{
+
+  width: 100%;
+  height: 1080px;
+  background-color:	#1F2833;
+  color: #C5C6C7;
+  text-align: center;
+  padding-top: 25px;
+  background-image: url("../Images/header.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 20px #45A29E
+
+}
+#div1{
+
+  width: 100%;
+  height: 500px;
+  background-color: #1F2833;
+  text-align: center;
+  background-repeat: no-repeat;
+
+}
+#div2{
+  /*IMAGE*/
+  width: 100%;
+  height: 500px;
+  background-image: url("../Images/background1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 20px #45A29E
+
+}
+#div3{
+
+  width: 100%;
+  height: 500px;
+  background-color: #1F2833;
+  text-align: center;
+  background-repeat: no-repeat;
+
+}
+#div4{
+  /*IMAGE*/
+  width: 100%;
+  height: 500px;
+  background-image: url("../Images/background2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 20px #45A29E
+
+}
+#div5{
+  
+  width: 100%;
+  height: 500px;
+  background-color:	#1F2833;
+  text-align: center;
+  background-repeat: no-repeat;
+
+}
+	#subdiv_faq{
+		position: top;
+	}
+	#subdiv_support{
+		padding-top: 0px;
+		
+	}	
+#div6{
+  /*IMAGE*/
+  width: 100%;
+  height: 500px;
+  background-image: url("../Images/background3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 20px #45A29E
+
+}
+#div7{
+
+  width: 100%;
+  height: 500px;
+  background-color:	#1F2833;
+  text-align: center;
+  background-repeat: no-repeat;
+
+}
+#h3{
+	color: 66FCF1;
+}
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 20px #45A29E
+}
+
+#myBtn:hover {
+  background-color: darkGrey;
+}
