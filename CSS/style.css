@@ -2,6 +2,7 @@
 	font-family: webFont;
 	src: url(../fonts/saofont.otf);
 }
+
 body{
   margin: 0 auto;
   color: #C5C6C7;
@@ -24,6 +25,25 @@ header{
   box-shadow: 0px 2px 20px #45A29E
 
 }
+#teaserText{
+	position: center;
+	height: 200 px;
+	width: 500px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 50px;
+	border-color: #66FCF1;
+	margin: auto;
+}
+	#teaserText h1{
+		color: #45A29E;
+		font-size: 75px;
+	}
+	#teaserText p {
+		color: #45A29E;
+		font-size: 50px;
+		text-decoration: underline;	
+	}
 #div1{
 
   width: 100%;
